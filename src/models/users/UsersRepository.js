@@ -13,7 +13,7 @@ export default class UsersRepository {
 
       return allUsers;
     } catch (error) {
-      console.error("Failed to get users: ", error);
+      // console.error("Failed to get users: ", error);
 
       throw error;
     }
@@ -28,7 +28,7 @@ export default class UsersRepository {
       console.log(user);
       return user;
     } catch (error) {
-      console.error(`Failed to get user by id ${id}: `, error);
+      // console.error(`Failed to get user by ID ${id}: `, error);
 
       throw error;
     }
